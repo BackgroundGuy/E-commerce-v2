@@ -1,0 +1,27 @@
+Changement dans app.config.ts
+pour pas avoir l'erreur forbidden :thumbsup:
+
+Fichier 
+Login.html>div.signup-container.px
+//donc, Connexion.html
+<div class="signup-container px-4 py-3">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit"
+        <div class="form-group">
+            @if (username && username.hasError('required')){
+                <div>
+                    Name is required.
+                </div>
+            }
+            @if (username && username.hasError('minlength')){
+                <div>
+                    Name must be at least 4 characters long.
+                </div>
+            }
+        </div>
+        
+        <div class="form-group>
+        </div>
+        <button type="submit" class="btn btn-primary m//pas vue
+
+    </form>
+</div>

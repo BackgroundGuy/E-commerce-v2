@@ -1,0 +1,37 @@
+Header
+>protection Guard
+>login/sign in
+>Panier
+>Local Storage
+
+<body>
+
+<main class="homepage-main">
+  <section class="hero">
+    <h1>Bienvenue</h1>
+    <p>Partez à l’aventure, équipez-vous et accomplissez des quêtes épiques !</p>
+    <button class="btn-cta">Voir les ventes</button>
+  </section>
+
+  <section class="features">
+    <div class="feature-card">
+      <h2>Armes légendaires</h2>
+      <p>Découvrez et achetez des armes mythiques pour vaincre vos ennemis.</p>
+    </div>
+    <div class="feature-card">
+      <h2>Protections robustes</h2>
+      <p>Renforcez votre défense avec des armures et boucliers médiévaux.</p>
+    </div>
+    <div class="feature-card">
+      <h2>Potions magiques</h2>
+      <p>Achetez des potions pour restaurer votre vie, votre mana ou augmenter votre force.</p>
+    </div>
+    <div class="feature-card">
+      <h2>Quêtes épiques</h2>
+      <p>Accomplissez des quêtes principales et secondaires pour gagner des récompenses.</p>
+    </div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
